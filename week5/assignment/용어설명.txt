@@ -1,0 +1,11 @@
+f1 score = precision과 recall의 조화평균. 두 지표의 균형을 반영함. (precision이 높아도 recall이 낮으면 좋은 성능이라고 할 수 없어서 두 지표를 균형있게 종합하여 평가한 score)
+
+recall = 실제 양성 샘플 중에서 모델이 양성이라고 올바르게 예측한 비율.
+
+precision = 모델이 양성이라고 예측한 샘플들 중 실제로 양성인 샘플의 비율. 
+
+sensitivity = recall과 같은 개념. 실제 양성 중 양성으로 맞춘 비율
+
+specivity = 실제 음성 샘플 중에서 모델이 음성으로 올바르게 예측한 비율
+
+auc(roc) = roc 곡선의 아래 면적. roc는 가짜 양성율에 대한 진짜 양성률의 곡선
